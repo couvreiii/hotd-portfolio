@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #0B0C10;
+  color: #E5E7EB;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Hides the default cursor so only the dragon fire shows */
+body {
+  cursor: none !important;
+}
+
+/* Ensures clickable things still show a pointer if you want, or keep it none */
+a, button, .cursor-pointer {
+  cursor: none !important; 
+}

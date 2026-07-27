@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Last Lighthouse - 3D Scene</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="loading">Loading Lighthouse...</div>
+    
+    <div id="canvas-container"></div>
+    
+    <div id="ui">
+        <h1>The Last Lighthouse</h1>
+        <p>Each star has a story of fate</p>
+        <div id="story"></div>
+        <div id="controls">
+            <button id="toggleStorm">Toggle Storm</button>
+            <button id="reset">Reset Story</button>
+        </div>
+    </div>
+    
+    <!-- 1. Load Three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <!-- 2. Load GLTFLoader -->
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+    <!-- 3. Load OrbitControls -->
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+    
+    <!-- 4. Load your script LAST -->
+    <script src="script.js"></script>
+</body>
+</html>

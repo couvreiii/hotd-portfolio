@@ -1,0 +1,9 @@
+body{ margin: 0; overflow: hidden; background-color: #1a1a11;}
+
+canvas{ width: 100vw; height: 100vh; display: block;}
+
+#loading{
+    position: absolute; top: 50%; left: 50%;
+    transform: translate( -50%, -50%);
+    color: white; font-family: sans-serif; font-size: 24px;
+}
